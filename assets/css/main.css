@@ -26,10 +26,6 @@ body {
     color: var(--gray);
 }
 
-.heading {
-    font-family: 'Jost', sans-serif;
-}
-
 .heading-1 {
     font-family: 'Trirong', sans-serif;
     font-size: 3.2rem;
@@ -39,6 +35,27 @@ body {
 
 .heading-2 {
     font-family: 'Trirong', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.heading-3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.445;
+}
+
+.heading-4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.445;
+}
+
+.heading-5 {
+    font-family: 'Jost', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.445;
@@ -54,15 +71,14 @@ body {
     flex-wrap: wrap;
 } 
 
-
-
 .banner__content {
+    padding-left: calc((100vw - 1180px) / 2);
     position: relative;
     background-color: var(--red-bg);
 }
 
 .banner__container {
-    padding: 160px 0px;
+    padding: 52px var(--gutter);
     z-index: 1;
 }
 
@@ -72,6 +88,9 @@ body {
 }
 
 .banner__context {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.445;
     margin-top: 8px;
     color: var(--pink-light);
     margin: 0;
@@ -79,16 +98,13 @@ body {
 
 .banner__btn {
     display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.445;
     font-weight: 500;
-    font-size: 12px;
     color: var(--red-bg);
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 24px;
-}
-
-.banner__image {
-
 }
 
 .image-top {
@@ -105,22 +121,35 @@ body {
 
 
 /* === feature === */
-.feature__item {
+.feature .container {
 
 }
 
 .feature__item h3 {
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.445;
+    margin: 0;
+    padding-top: 16px;
     color: var(--red-bg);
 }
 
 .feature__item p {
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 1.445;
+    padding-top: 8px;
+    margin: 0;
     color: var(--gray);
 }
 
+/* collection */
+.collection-list {
+    background-color: var(--pink-light);
+}
+
+.section__heading h2 {
+    color: var(--red-bg);
+    margin: 0;
+}
+
+.section__heading h3 {
+    color: var(--gray);
+    margin: 0;
+    padding-top: 4px;
+}
 

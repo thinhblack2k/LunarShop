@@ -8,12 +8,60 @@
 }
 
 @media (min-width: 992px) {
-   
+    
 }
 
 @media (min-width: 1024px) {
+    /* font */
     .heading-1 {
         font-size: 7.2rem;
+    }
+    
+    .heading-2 {
+        font-size: 5.6rem;
+    }
+
+    .heading-3 {
+        font-size: 2.4rem;
+    }
+
+    .heading-4 {
+        font-size: 2rem;
+    }
+
+    .heading-5 {
+        font-size: 1.8rem;
+    }
+
+    /* banner */
+    .banner__container {
+        padding: 160px 200px 160px var(--gutter);
+        z-index: 1;
+    }
+
+    .banner__context {
+        margin-top: 16px;
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+
+    .btn {
+        padding: 16px 32px;
+    }
+
+    .banner__btn {
+        font-size: 1.8rem;
+        margin-top: 60px;
+    }
+
+    /* feature */
+    .feature__item h3 {
+        padding-top: 24px;
+    }
+
+    /* collection */
+    .section__heading h3 {
+        padding-top: 8px;
     }
 }
 

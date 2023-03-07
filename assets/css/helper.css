@@ -1,6 +1,10 @@
 .pd-section {
-    padding-top: 88px;
-    padding-bottom: 88px;
+    padding-top: calc(52px - var(--gutter));
+    padding-bottom: calc(52px - var(--gutter));
+}
+
+.mg-bt-40 {
+    margin-bottom: calc(40px - var(--gutter) * 2);
 }
 
 .d-flex {
@@ -29,4 +33,32 @@
 
 .text-center {
     text-align: center;
+}
+
+
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px){
+ 
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1024px) {
+    .pd-section {
+        padding-top: calc(88px - var(--gutter));
+        padding-bottom: calc(88px - var(--gutter));
+    }
+
+    .mg-bt-40 {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+   
 }
