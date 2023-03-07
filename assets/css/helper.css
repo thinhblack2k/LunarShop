@@ -7,6 +7,10 @@
     margin-bottom: calc(40px - var(--gutter) * 2);
 }
 
+.pd-bt-30 {
+    padding-bottom: calc(2 * var(--gutter));
+}
+
 .d-flex {
     display: flex;
 }
