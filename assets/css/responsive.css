@@ -159,6 +159,9 @@
     .footer__subscribe input{
         padding: 16px 32px;
         margin-right: 24px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.44;
     }
     
     .footer__subscribe button {
