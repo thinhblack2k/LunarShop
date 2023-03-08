@@ -79,6 +79,10 @@ body {
     background-color: var(--red-bg);
 }
 
+.banner__content img {
+    width: 40%;
+}
+
 .banner__container {
     padding: 52px var(--gutter);
     z-index: 1;
@@ -221,6 +225,10 @@ body {
 
 .generic-content__container {
     background-color: var(--pink-light);
+}
+
+.generic-content__container img {
+    width: 20%;
 }
 
 .generic-content__context {
