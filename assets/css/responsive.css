@@ -47,10 +47,10 @@
 
     .btn {
         padding: 16px 32px;
+        font-size: 1.8rem;
     }
 
     .banner__btn {
-        font-size: 1.8rem;
         margin-top: 60px;
     }
 
@@ -60,13 +60,68 @@
     }
 
     /* collection */
+    .section__heading {
+        padding-bottom: calc(60px - var(--gutter) * 2);
+    }
+
     .section__heading h3 {
         padding-top: 8px;
-        padding-bottom: calc(60px - var(--gutter) * 2);
     }
 
     .image-list__text {
         font-size: 2.4rem;
+    }
+
+    /* product-list */
+    .btn__color {
+        margin-right: 8px;
+    }
+
+    .product__item h4{
+        padding-top: 24px;
+    }
+
+    .product__colors {
+        padding: 16px 0;
+    }
+
+    .product__price--old {
+        font-size: 1.8rem;
+    }
+
+    .product__price--new {
+        font-weight: 600;
+    }
+
+    .product__btn {
+        margin-top: 24px;
+    }
+
+    /* generic content */
+    .generic-content__context {
+        padding: 100px 48px;
+    }
+
+    .generic-content__heading {
+        font-size: 2.4rem;
+    }
+
+    .generic-content__reverse {
+        flex-direction: row-reverse;
+    }
+
+    /* voucher-list */
+    .voucher-list {
+        margin-top: calc(88px - var(--gutter));
+    }
+
+    .voucher-list__container .voucher-list__pattern {
+        padding: 29px;
+    }
+    
+    .voucher-list__content {
+        font-size: 4.8rem;
+        max-width: 115px;
     }
 }
 
