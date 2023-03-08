@@ -314,6 +314,21 @@ body {
     color: var(--gray);
 }
 
+/* product sale */
+.timeout__item {
+    padding: 32px 8px;
+}
+
+.timeout__box {
+    padding: 16px;
+    border: solid 2px var(--orange-dark);
+    background-color: var(--yellow-dark);
+    color: var(--red-bg);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.445;
+}
+
 /* customer-feedback */
 .customer-feedback {
     background-color: var(--pink-light);
