@@ -127,6 +127,17 @@
         font-size: 4.8rem;
         max-width: 115px;
     }
+
+    /* product sale */
+    .timeout__item {
+        padding-top: 36px;
+        padding-inline: calc(21px / 2);
+    }
+
+    .timeout__box {
+        padding: 16px 26.5px;
+        font-size: 2.4rem;
+    }
 }
 
 @media (min-width: 1200px) {

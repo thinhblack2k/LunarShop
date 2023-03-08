@@ -148,7 +148,7 @@ body {
 }
 
 .section__heading {
-    padding-bottom: calc(31px - var(--gutter) * 2);
+    padding-bottom: calc(32px - var(--gutter) * 2);
 }
 
 .section__heading h2 {
@@ -316,12 +316,14 @@ body {
 
 /* product sale */
 .timeout__item {
-    padding: 32px 8px;
+    padding-top: 32px;
+    padding-inline: 8px;
+    padding-bottom: calc(32px - var(--gutter) * 2);
 }
 
 .timeout__box {
     padding: 16px;
-    border: solid 2px var(--orange-dark);
+    border: solid 2px #D53E0F;
     background-color: var(--yellow-dark);
     color: var(--red-bg);
     font-size: 2.4rem;

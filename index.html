@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- end css -->
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+
     <!-- start google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -267,26 +270,26 @@
                     <div class="col section__heading text-center">
                         <h2 class="heading-2">This Year Collection</h2>
                         <h3 class="heading-4">Time for new change and new beginnings</h3>
-                        <div class="timeout d-flex justify-center">
+                        <div countdown="" data-date="March 20 2023 10:10:10" class="timeout d-flex justify-center">
                             <div class="timeout__item">
-                                <div class="timeout__box">
-                                    06
+                                <div data-days="" class="timeout__box">
+                                    00
                                 </div>
                                 <div class="timeout__title">
                                     days
                                 </div>
                             </div>
                             <div class="timeout__item">
-                                <div class="timeout__box">
-                                    12
+                                <div data-hours="" class="timeout__box">
+                                    00
                                 </div>
                                 <div class="timeout__title">
                                     hours
                                 </div>
                             </div>
                             <div class="timeout__item">
-                                <div class="timeout__box">
-                                    56
+                                <div data-minutes="" class="timeout__box">
+                                    00
                                 </div>
                                 <div class="timeout__title">
                                     minutes
@@ -396,13 +399,22 @@
 
         <!-- start footer -->
         <footer class="footer">
-
+            <div class="banner__content w-100 d-flex align-center p-relative">
+                <img class="image-top p-absolute" src="./assets/images/banner/flower-small.png" alt="flower">
+                <div class="banner__container text-center">
+                    <h2 class="banner__heading heading-2">Make your 2023 year full of beautiful
+                        with Lunar</h2>
+                    <p class="banner__context">Signup now to receive the newest designs of Lunar and start the trend.</p>
+                </div>
+                <img class= "image-bottom p-absolute" src="./assets/images/banner/flower-medium.png" alt="flower">
+            </div>
         </footer>
         <!-- end footer -->
 
     </div>
     <!-- start javascript script -->
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/countdown.js"></script>
     <!-- end javascript script -->
 </body>
 </html>
