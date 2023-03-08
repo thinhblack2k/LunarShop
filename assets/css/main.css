@@ -66,6 +66,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.445;
     font-weight: 500;
+    border: none;
     background-color: var(--orange-dark);
 }
 
@@ -331,9 +332,49 @@ body {
     line-height: 1.445;
 }
 
+.product__sale {
+    top: calc(8px + var(--gutter));
+    left: calc(8px + var(--gutter));
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.445;
+    padding: 4px 8px;
+    border-radius: 40px;
+    background-color: var(--yellow-dark);
+    color: var(--red-bg);
+    border: solid 1px var(--red-bg);
+}
+
 /* customer-feedback */
 .customer-feedback {
     background-color: var(--pink-light);
+}
+
+/* footer */
+.footer {
+    background-color: var(--red-bg);
+}
+
+.footer__container {
+    z-index: 1;
+}
+
+.footer__subscribe {
+    margin-top: 32px;
+}
+
+.footer__subscribe input{
+    max-width: 642px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+}
+
+.footer__subscribe button {
+    color: var(--red-bg);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.42;
 }
 
 

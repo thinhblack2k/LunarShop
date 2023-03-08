@@ -138,6 +138,33 @@
         padding: 16px 26.5px;
         font-size: 2.4rem;
     }
+
+    .product__sale {
+        top: calc(16px + var(--gutter));
+        left: calc(16px + var(--gutter));
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    /* footer */
+    .footer__content .banner__context {
+        font-size: 2.4rem;
+        margin-top: 8px;
+    }
+
+    .footer__subscribe {
+        margin-top: 60px;
+    }
+
+    .footer__subscribe input{
+        padding: 16px 32px;
+        margin-right: 24px;
+    }
+    
+    .footer__subscribe button {
+        color: var(--red-bg);
+        font-size: 1.8rem;
+    }
 }
 
 @media (min-width: 1200px) {
