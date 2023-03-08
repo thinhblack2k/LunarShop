@@ -1,5 +1,5 @@
 :root {
-    --gutter: calc(15px);
+    --gutter: calc(15px / 2);
     --white: #FFFFFF;
     --red-bg: #7E0306;
     --yellow-dark: #FCAF67;

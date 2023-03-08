@@ -12,6 +12,10 @@
 }
 
 @media (min-width: 1024px) {
+    :root {
+        --gutter: 15px;
+    }
+
     /* font */
     .heading-1 {
         font-size: 7.2rem;
