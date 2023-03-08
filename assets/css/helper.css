@@ -7,8 +7,8 @@
     margin-bottom: calc(40px - var(--gutter) * 2);
 }
 
-.pd-bt-30 {
-    padding-bottom: calc(2 * var(--gutter));
+.mg-bt-30 {
+    margin-bottom: calc(2 * var(--gutter));
 }
 
 .d-flex {
@@ -25,6 +25,14 @@
 
 .d-block {
     display: block;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
 }
 
 .w-100 {

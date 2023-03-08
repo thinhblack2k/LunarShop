@@ -73,7 +73,6 @@ body {
 
 .banner__content {
     padding-left: calc((100vw - 1180px) / 2);
-    position: relative;
     background-color: var(--red-bg);
 }
 
@@ -108,13 +107,11 @@ body {
 }
 
 .image-top {
-    position: absolute;
     top: 0;
     left: 30px;
 }
 
 .image-bottom {
-    position: absolute;
     bottom: 0;
     right: 30px;
 }
@@ -138,7 +135,7 @@ body {
 }
 
 /* collection */
-.collection-list {
+.image-list {
     background-color: var(--pink-light);
 }
 
@@ -151,4 +148,18 @@ body {
     color: var(--gray);
     margin: 0;
     padding-top: 4px;
+    padding-bottom: calc(31px - var(--gutter) * 2);
+}
+
+.image-list__text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.445;
+    color: var(--white);
+    z-index: 1;
+    margin: 0;
+    padding: var(--gutter);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
