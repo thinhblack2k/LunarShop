@@ -146,6 +146,33 @@
         padding: 4px 8px;
     }
 
+    /* customer feedback */
+    .customer-feedback ul li {
+        flex-direction: row;
+    }
+
+    .customer-feedback__content {
+        padding: 42px 32px;
+    }
+
+    .customer-feedback__date {
+        font-size: 1.2rem;
+    }
+    
+    .customer-feedback__text {
+        padding-top: 12px;
+        font-size: 1.8rem;
+    }
+    
+    .customer-feedback__evaluate {
+        padding-top: 12px;
+    }
+    
+    .customer-feedback__name {
+        padding-top: 12px;
+        font-size: 2rem;
+    }
+
     /* footer */
     .footer__content .banner__context {
         font-size: 2.4rem;
@@ -168,6 +195,7 @@
         color: var(--red-bg);
         font-size: 1.8rem;
     }
+
 }
 
 @media (min-width: 1200px) {
