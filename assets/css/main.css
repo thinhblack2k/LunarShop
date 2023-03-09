@@ -67,7 +67,8 @@ body {
     line-height: 1.445;
     font-weight: 500;
     border: none;
-    background-color: var(--orange-dark);
+    text-transform: uppercase;
+    background-color: var(--yellow-dark);
 }
 
 /* === banner === */
@@ -85,13 +86,14 @@ body {
 }
 
 .banner__container {
-    padding: 52px var(--gutter);
+    padding: 52px var(--gutter) 40px;
     z-index: 1;
 }
 
 .banner__heading {
     color: var(--pink-light);
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .banner__context {
@@ -145,7 +147,7 @@ body {
 }
 
 .section__heading {
-    padding-bottom: calc(32px - var(--gutter) * 2);
+    padding-bottom: calc(32px - var(--gutter) * 1) !important;
 }
 
 .section__heading h2 {
@@ -154,7 +156,6 @@ body {
 }
 
 .section__heading h3 {
-    color: var(--gray);
     margin: 0;
     padding-top: 4px;
 }
@@ -187,11 +188,11 @@ body {
 }
 
 .btn__color {
+    content: "";
     width: 16px;
     height: 16px;
     border-radius: 50%;
     border: none;
-    margin-right: 4px;
 }
 
 .product__price--old {
@@ -206,6 +207,7 @@ body {
 
 .product__btn {
     margin-top: 8px;
+    margin-bottom: calc(24px - var(--gutter) * 2);
     border: none;
     color: var(--white);
     background-color: var(--red-bg);
@@ -315,7 +317,6 @@ body {
 .timeout__item {
     padding-top: 32px;
     padding-inline: 8px;
-    padding-bottom: calc(32px - var(--gutter) * 2);
 }
 
 .timeout__box {
@@ -347,7 +348,7 @@ body {
 }
 
 .customer-feedback {
-    margin-top: calc(32px - var(--gutter));
+    margin-top: var(--gutter);
 }
 
 .customer-feedback ul,
@@ -412,13 +413,14 @@ body {
 
 .customer-feedback ol {
     padding-top: 32px;
+    padding-bottom: var(--gutter);
     display: flex;
     justify-content: center;
     z-index: 1;
 }
 .customer-feedback ol li {
     list-style: none;
-    padding: 0 5px;
+    padding: 0 3px;
 }
 .customer-feedback ol li a {
     display: block;
