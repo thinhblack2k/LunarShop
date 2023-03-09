@@ -156,10 +156,6 @@
         min-width: 60%;
     }
 
-    .xl-none {
-        display: none;
-    }
-
     .customer-feedback__content {
         padding: 42px 32px;
     }
@@ -180,6 +176,11 @@
     .customer-feedback__name {
         padding-top: 12px;
         font-size: 2rem;
+    }
+
+    .customer-feedback ol li a {
+        height: 15px;
+        width: 15px;
     }
 
     /* footer */

@@ -69,6 +69,10 @@
     .mg-bt-40 {
         margin-bottom: 0px;
     }
+
+    .xl-none {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
