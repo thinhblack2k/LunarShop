@@ -174,7 +174,7 @@ body {
 }
 
 /* product list */
-.product__item h4{
+.product__item h3{
     margin: 0;
     margin-top: 8px;
     color: var(--red-bg);
