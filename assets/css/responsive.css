@@ -147,6 +147,10 @@
     }
 
     /* customer feedback */
+    .customer-feedback {
+        margin-top: calc(60px - var(--gutter));
+    }
+
     .customer-feedback ul li {
         flex-direction: row;
     }
