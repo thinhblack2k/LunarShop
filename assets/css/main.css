@@ -339,8 +339,8 @@ body {
 }
 
 .product__sale {
-    top: calc(8px + var(--gutter));
-    left: calc(8px + var(--gutter));
+    top: 8px;
+    left: 8px;
     font-size: 10px;
     font-weight: 400;
     line-height: 1.445;

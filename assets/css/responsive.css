@@ -166,8 +166,8 @@
     }
 
     .product__sale {
-        top: calc(16px + var(--gutter));
-        left: calc(16px + var(--gutter));
+        top: 16px;
+        left: 16px;
         font-size: 1.4rem;
         padding: 4px 8px;
     }
