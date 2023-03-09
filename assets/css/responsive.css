@@ -4,11 +4,16 @@
 }
 
 @media (min-width: 768px){
- 
+    .customer-feedback ul li {
+        flex-direction: row;
+        min-width: 90%;
+    }
 }
 
 @media (min-width: 992px) {
-    
+    .customer-feedback ul li {
+        min-width: 70%;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -160,8 +165,7 @@
     }
 
     .customer-feedback ul li {
-        flex-direction: row;
-        min-width: 55%;
+        min-width: 60%;
     }
 
     .customer-feedback__content {
@@ -218,5 +222,7 @@
 }
 
 @media (min-width: 1200px) {
-   
+    .customer-feedback ul li {
+        min-width: 55%;
+    }
 }
