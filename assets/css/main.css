@@ -26,6 +26,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--gray);
+    -webkit-font-smoothing: antialiased;
 }
 
 .heading-1 {
@@ -76,11 +77,11 @@ body {
 /* === banner === */
 .banner {
     flex-wrap: wrap;
+    background-color: var(--red-bg);
 } 
 
 .banner__content {
     padding-left: calc((100vw - 1230px) / 2);
-    background-color: var(--red-bg);
 }
 
 .banner__content img {
@@ -195,6 +196,8 @@ body {
     height: 16px;
     border-radius: 50%;
     border: none;
+    display: inline-block;
+    margin-right: 4px;
 }
 
 .product__price--old {
@@ -448,6 +451,14 @@ body {
 
 .footer__container {
     z-index: 1;
+}
+
+.footer__container .banner__heading{
+    margin-bottom: 0;
+}
+
+.footer__container .banner__content {
+    margin-top: 4px;
 }
 
 .footer__subscribe {

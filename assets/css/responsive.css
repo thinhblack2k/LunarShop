@@ -1,6 +1,8 @@
 /* === Responsive === */
 @media (min-width: 576px){
-
+    .generic-content__container img {
+        width: 10%;
+    }
 }
 
 @media (min-width: 768px){
@@ -8,11 +10,18 @@
         flex-direction: row;
         min-width: 90%;
     }
+
+    .generic-content__container img {
+        width: 11%;
+    }
 }
 
 @media (min-width: 992px) {
     .customer-feedback ul li {
         min-width: 70%;
+    }
+    .generic-content__container img {
+        width: 15%;
     }
 }
 
@@ -87,7 +96,7 @@
 
     /* product-list */
     .btn__color {
-        margin-right: 4px;
+        margin-right: 8px;
     }
 
     .product__item h3{
@@ -122,6 +131,10 @@
 
     .generic-content__reverse {
         flex-direction: row-reverse;
+    }
+
+    .generic-content__container img {
+        width: 20%;
     }
 
     /* voucher-list */
