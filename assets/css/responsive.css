@@ -153,6 +153,11 @@
 
     .customer-feedback ul li {
         flex-direction: row;
+        min-width: 60%;
+    }
+
+    .xl-none {
+        display: none;
     }
 
     .customer-feedback__content {
