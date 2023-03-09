@@ -11,6 +11,10 @@
     margin-bottom: calc(2 * var(--gutter));
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
 .d-flex {
     display: flex;
 }

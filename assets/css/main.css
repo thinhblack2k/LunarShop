@@ -131,13 +131,13 @@ body {
 /* === feature === */
 .feature__item h3 {
     margin: 0;
-    padding-top: 16px;
+    margin-top: 16px;
     color: var(--red-bg);
 }
 
 .feature__item p {
-    padding-top: 8px;
     margin: 0;
+    margin-top: 8px;
     color: var(--gray);
 }
 
@@ -157,7 +157,7 @@ body {
 
 .section__heading h3 {
     margin: 0;
-    padding-top: 4px;
+    margin-top: 4px;
 }
 
 .image-list__text {
@@ -245,6 +245,7 @@ body {
 
 .generic-content__text {
     margin: 0;
+    margin-top: 8px;
 }
 
 .flower-1 {

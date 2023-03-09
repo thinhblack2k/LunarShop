@@ -64,7 +64,7 @@
 
     /* feature */
     .feature__item h3 {
-        padding-top: 24px;
+        margin-top: 24px;
     }
 
     /* collection */
@@ -73,7 +73,7 @@
     }
 
     .section__heading h3 {
-        padding-top: 8px;
+        margin-top: 8px;
     }
 
     .image-list__text {
