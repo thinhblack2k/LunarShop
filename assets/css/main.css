@@ -127,10 +127,6 @@ body {
 
 
 /* === feature === */
-.feature .container {
-
-}
-
 .feature__item h3 {
     margin: 0;
     padding-top: 16px;
@@ -351,18 +347,7 @@ body {
 }
 
 .customer-feedback {
-    position: relative;
     margin-top: calc(32px - var(--gutter));
-}
-  
-.customer-feedback::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
 }
 
 .customer-feedback ul,
