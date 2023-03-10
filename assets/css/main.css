@@ -471,6 +471,10 @@ body {
     z-index: 1;
 }
 
+.footer__container.pd-section {
+    padding: 52px 0;
+}
+
 .footer__container .banner__heading{
     margin-bottom: 0;
 }
