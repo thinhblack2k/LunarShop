@@ -353,7 +353,7 @@ body {
 }
 
 .timeout__title {
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 .product__sale {
@@ -475,7 +475,7 @@ body {
     margin-bottom: 0;
 }
 
-.footer__container .banner__content {
+.footer__content .banner__context {
     margin-top: 4px;
 }
 
