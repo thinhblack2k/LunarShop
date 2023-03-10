@@ -338,6 +338,10 @@ body {
     line-height: 1.445;
 }
 
+.timeout__title {
+    margin-top: 8px;
+}
+
 .product__sale {
     top: 8px;
     left: 8px;
@@ -383,7 +387,7 @@ body {
 
 .customer-feedback ul li {
     min-width: 85%;
-    padding-right: calc(var(--gutter) * 2);
+    padding-right: 16px;
     list-style: none;
     scroll-snap-align: start;
     flex-direction: column;
