@@ -95,6 +95,10 @@
     }
 
     /* product-list */
+    .product-list.pd-section {
+        padding-bottom: calc(88px - var(--gutter));
+    }
+
     .btn__color {
         margin-right: 8px;
     }
